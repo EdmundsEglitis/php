@@ -1,0 +1,23 @@
+/* app.css */
+.circle {
+  width: calc(2 * var(--radius));
+  height: calc(2 * var(--radius));
+  background-color: lightblue;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.rectangle {
+  width: var(--width);
+  height: var(--height);
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
